@@ -122,6 +122,8 @@ $(function () {
       scrollTop: 0
     }, 1500)
   })
+  let windowWidth=$(window).innerWidth();
+  /* console.log(windowWidth); */
   if (windowWidth < 768) {
     $('.problems .problem').attr({
       'data-aos': '',
