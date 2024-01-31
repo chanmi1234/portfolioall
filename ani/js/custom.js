@@ -1,4 +1,9 @@
 $(function () {
+ //경고창 닫기
+ $('.alert .alert_ok , .alert .alert_x').click(function(){
+   $('.alert').hide()
+})
+
    $('.bg_img .pic1 .frame').click(function () {
       $('.bg_img .pic1').toggleClass('right')
    })

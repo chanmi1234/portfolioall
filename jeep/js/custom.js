@@ -1,14 +1,8 @@
 $(function () {
-   /*  $('header').hover(
-        function () {
-            $(this).addClass('active')
-
-        },
-        function () {
-            $(this).removeClass('active')
-
-        })
- */
+ //경고창 닫기
+ $('.alert .alert_ok , .alert .alert_x').click(function(){
+    $('.alert').hide()
+})
     $(window).scroll(function () {
         let scT = $(this).scrollTop();
         let heT = $('.vehicles').offset().top - 130;

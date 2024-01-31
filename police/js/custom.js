@@ -1,4 +1,8 @@
 $(function () {
+    //경고창 닫기
+    $('.alert .alert_ok , .alert .alert_x').click(function(){
+        $('.alert').hide()
+    })
     //헤더 호버 
     $('header').hover(
         function () {

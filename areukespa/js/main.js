@@ -1,6 +1,10 @@
 
 
 $(function () {
+     //경고창 닫기
+ $('.alert .alert_ok , .alert .alert_x').click(function(){
+    $('.alert').hide()
+})
     //메인비주얼 슬라이드
     let swiper = new Swiper(".main_banner", {
         navigation: {
@@ -77,7 +81,7 @@ $(function () {
     //faq클릭 이벤트
     $('main.contents .faq .contents .txt').click(function(){
         $(this).find('i').toggleClass('on')
-        $(this).siblings('ul').slideToggle(500)
+        $(this).siblings('ul').toggleClass('slide')
     })
 
     //aside 스크롤 탑 이벤트
