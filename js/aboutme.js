@@ -23,6 +23,7 @@ $(function () {
   })
 
   AOS.init();
+  
   let windowWidth = $(window).width();
   if (windowWidth < 450) {
     $('*').attr({

@@ -129,7 +129,7 @@ $(function () {
       scrollTop: 0
     }, 1500)
   })
-  if (windowWidth < 768) {
+  /* if (windowWidth < 768) {
     $('.problems .problem').attr({
       'data-aos': '',
       'data-aos-duration': '',
@@ -141,5 +141,5 @@ $(function () {
       'data-aos-offset': ''
     })
   }
-
+ */
 })

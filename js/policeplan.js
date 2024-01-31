@@ -122,9 +122,9 @@ $(function () {
       scrollTop: 0
     }, 1500)
   })
-  let windowWidth=$(window).innerWidth();
+/*   let windowWidth=$(window).innerWidth(); */
   /* console.log(windowWidth); */
-  if (windowWidth < 768) {
+  /* if (windowWidth < 768) {
     $('.problems .problem').attr({
       'data-aos': '',
       'data-aos-duration': '',
@@ -135,6 +135,6 @@ $(function () {
       'data-aos-duration': '',
       'data-aos-offset': ''
     })
-  }
+  } */
 
 })
